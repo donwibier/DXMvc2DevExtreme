@@ -515,22 +515,5 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
-  <ItemGroup>
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.1.6">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="DX.Data">
-      <Version>24.1.6.34</Version>
-    </PackageReference>
-    <PackageReference Include="DX.Data.Xpo">
-      <Version>24.1.6.35</Version>
-    </PackageReference>
-    <PackageReference Include="DX.Data.Xpo.Mapster">
-      <Version>24.1.6.31</Version>
-    </PackageReference>
-    <PackageReference Include="DX.Utils">
-      <Version>23.2.3.33</Version>
-    </PackageReference>
-  </ItemGroup>
+  
 </Project>
